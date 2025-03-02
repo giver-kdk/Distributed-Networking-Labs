@@ -1,0 +1,35 @@
+- If two or more devices communicate over the network, then it is Client Server Architecture
+- Distributed Network heavily relies on Client Server Architecture
+- The Client Server Architecture works on TCP/IP or OSI Model protocol
+	- Get data
+	- Make Segment (Append Port Address)
+	- Make packet (Append IP)
+	- Make Frame (Append MAC Address)
+	- Make Bits
+	- Transfer from Source to Destination
+	- IANA(Internet Assigned Number Authority) is used
+- The Client Server Architecture has the challenge at testing phase. 
+	- ICMP(Internet Communication Message Protocol) is used for Testing
+	- Testing of network considers: 
+		- Openness
+		- Heterogeneity
+		- Reliability (Network might get Down)
+		- DDOS Attack (So, Cryptography needed)
+		- Man in the Middle Attack (Diffie Hellman Protocol used)
+		- Platform Variation and Concurrency(So, DOS is needed and NOS helps to maintain Syntax, Semantic and Timing)
+		- Scalability
+		- Transparency (Maintained by Distributed Networking)
+			- Location
+			- User
+			- Failure
+			- Fault
+			- Security
+			- Access, etc.
+		- Performance
+		- Security
+	- We do ping for testing
+- The debugging phase considers: 
+	- 
+
+
+Task: Add 10 users and perform addition in server using RMI in JAVA
