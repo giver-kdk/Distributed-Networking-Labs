@@ -1,0 +1,29 @@
+- Steps of Communication: 
+	- Inter Process Communication: 
+		- Process identifies via Socket (IP(32-bit) + Port(16-bit))
+
+	- Event Synchronization
+
+	- Abstraction
+
+- Message Passing Paradigm: 
+	- Message request is created for RPC (Remote Procedure Call)
+	- Message goes to Message System
+	- Then Goes to Message Queue
+		- Checks if Queue Buffer is full or not
+		- If Queue Buffer is not full, then Message goes from Message System to Message Queue
+		- Then the Message goes to Server
+	- Server returns the Response Message to Message System
+		- Then Message goes to the Client
+
+
+Napster: 
+	- Uses Centralized Server
+	- Had the issue of central point of failure
+Nutela Protocol: 
+	- Uses P2P architecture
+Kazaa
+	- Uses P2P architecture
+	- It used Master Node which has more than 10 - 100 nodes connected together.
+	- Master node was more powerful node for file searching, directing peers to each other, etc.
+- Software Defined Network(SDN) is used to control all the OS of the devices. Eg: Make configuration in SDN and it is applied to all the network devices.
