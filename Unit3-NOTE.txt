@@ -20,10 +20,14 @@
 Napster: 
 	- Uses Centralized Server
 	- Had the issue of central point of failure
-Nutela Protocol: 
+Nutella Protocol: 
 	- Uses P2P architecture
 Kazaa
 	- Uses P2P architecture
 	- It used Master Node which has more than 10 - 100 nodes connected together.
 	- Master node was more powerful node for file searching, directing peers to each other, etc.
 - Software Defined Network(SDN) is used to control all the OS of the devices. Eg: Make configuration in SDN and it is applied to all the network devices.
+
+
+
+
