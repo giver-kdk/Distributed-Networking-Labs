@@ -40,5 +40,5 @@ In IPv6, network is identified using
 
 - In 192.168.0.0/26
   - Total length is 32 bit
-  - 26 means network address length in bits
-  - Remaining 32-26 = 6 bit is used as host address (which is modifiable)
+  - 26 means network address length in bits (26 bits are on)
+  - Remaining 32-26 = 6 bit is used as host address (6 bits are off and are modifiable)
