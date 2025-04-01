@@ -1,0 +1,20 @@
+- TCP/IP: 
+  - Application Layer: 
+    - Application Layer
+    - Presentation Layer
+    - Session Layer
+
+  - Transport Layer
+  - Network Layer
+
+  - Access Link Layer
+    - Data Link Layer
+      - Token Ring
+    - Physical Layer
+
+
+- IPv6: 
+  - If each and every human cell is assigned with IPv6 then also IPv6 will be more.
+
+- NAT: 
+  - Convert public network to private? 
