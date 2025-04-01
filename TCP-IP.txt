@@ -18,3 +18,27 @@
 
 - NAT: 
   - Convert public network to private? 
+
+IP Types: 
+  - Unicast IP
+  - Anycast IP 
+  - Multicast IP (Broadcast to particular group)
+  - Broadcast IP
+
+In IPv4, network is identified using subnet mask: 
+  - Class A:
+    - 255.0.0.0
+  - Class B: 
+    - 255.255.0.0
+  - Class C:
+    - 255.255.255.0
+
+In IPv6, network is identified using 
+
+- 0.0.0.0 is the Default Gateway
+- 127.0.0.0 is lookback IP
+
+- In 192.168.0.0/26
+  - Total length is 32 bit
+  - 26 means network address length in bits
+  - Remaining 32-26 = 6 bit is used as host address (which is modifiable)
