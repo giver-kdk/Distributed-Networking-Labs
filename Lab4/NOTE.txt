@@ -1,0 +1,19 @@
+Steps: 
+    - Create the network of switch, router and client as shown in the .pkt project file
+        - Connect same devices with cross over wire (Dashed Wire). i.e; Router to Router
+    - Assign IP address on client, switch and routes
+        - Note that routers have two addresses (GigabitEthernet)
+        - The IP addresses for given project is: 
+            - Client 1 (192.168.1.2)  
+            - Router 1 (192.168.1.1, 192.168.2.1)  
+            - Router 2 (192.168.2.2, 192.168.3.1)  
+            - Client 2 (192.168.3.2)
+
+    - Set default gateway for Client1 = 1st IP Address of Router 1 
+    - Set default gateway for Client2 = 2nd IP Address of Router 2 
+
+    - Turn on 'Port Status' for Rouert 1 and Router 2 for both addresses (GigabitEthernet)
+    - Now, from Client 1, ping the Client 2 using: 
+        - ping 192.168.3.2
+
+    - You should see the data transfer logs

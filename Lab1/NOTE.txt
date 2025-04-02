@@ -1,0 +1,52 @@
+Steps: 
+    - Create network of following devices as per the .pkt project file: 
+        - Server
+        - Client 1
+        - CLient 2
+        - Switch
+    
+    - Configure following of devices: 
+        - Server DNS Configuration (On IP Configuration -> Services -> DNS): 
+            - Turn on 'DNS Service'
+            - Set Resource Records name as: www.cisco.com
+            - Set Addresses as: 192.168.1.1
+            - Click "Add"
+
+        - Server IP Address (On IP Configuration -> Desktop)
+            - Set IPv4 Address as: 192.168.1.1
+            - Click ouside
+            - Set Default Gateway as: 0.0.0.0
+            - Set DNS Server as: 102.168.1.1
+        - Client 1 (On IP Configuration -> Desktop)
+            - Set IPv4 Address as: 192.168.1.2
+            - Click ouside
+            - Set Default Gateway as: 0.0.0.0
+            - Set DNS Server as: 102.168.1.1
+
+    - Open Web Browser in Client 1 and open: 
+            - www.cisco.com
+
+    - Configure Server for File Transfer (On IP Configuration -> Services -> FTP): 
+        - Turn on 'Service' for FTP
+        - Set Username as: admin
+        - Set password as: admin
+        - Checkmark: Write, Read, Delete, Rename and List options
+        - Click 'Add'
+
+    - File Transfer From Clien1: 
+        - Open Text Editor on Client (Desktop -> Text Editor) 
+        - Type Texts in the File
+        - Save as MyFile.txt
+        - Open command prompt from Desktop -> Command Prompt
+        - Type following commands one by one: 
+            - ftp 198.168.1.1
+            - admin             // This is Username
+            - admin             // This is password
+            - ?
+            - put MyFIle.txt
+
+    - See transferred file on Server (on Servies -> FTP): 
+        - Select the username from the list
+        - You should se ethe file on the below after scroling
+
+
