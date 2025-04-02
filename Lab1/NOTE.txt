@@ -47,6 +47,12 @@ Steps:
 
     - See transferred file on Server (on Servies -> FTP): 
         - Select the username from the list
-        - You should se ethe file on the below after scroling
+        - You should se ethe file on the below after scrolling
+
+
+
+
+NOTE: The screenshots of these steps are located on my local system: 
+        - PATH: C:\Users\DELL\Pictures\Screenshots\dn-outputs\cisco-lab1
 
 
