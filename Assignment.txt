@@ -1,1 +1,10 @@
-- Study concept od Grid Computing
+- Main: Study concept od Grid Computing
+- Revise Replay Attack
+- Revise RSA Based Digital Signature Generation (Might ask in exam)  
+  - NOTE: Message size should be less than 'n'
+  - If Message size > 'n', then breakdown the messgae into characters
+  - Given p and q as prime numbers
+  - Find n = p * q
+  - Phi(n) = ...
+  - 1 < e < Phi(n) gcd(2, Phi(n)) = 1
+-  
