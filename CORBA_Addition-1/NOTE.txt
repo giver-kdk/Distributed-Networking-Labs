@@ -1,0 +1,6 @@
+Commands to run the CORMA Implementation: 
+	- idlj -fall Addition.idl
+	- javac *.java
+	- orbd -ORBInitialPort 1050&
+	- java StartServer -ORBInitialPort 1050 -ORBInitialHost localhost&
+	- java StartClient -ORBInitialPort 1050 -ORBInitialHost localhost
